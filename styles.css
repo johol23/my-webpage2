@@ -27,6 +27,33 @@ h1 {
     color: #555; /* Optional: sets a color for the output text */
 }
 
+ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px; /* Centers the list and limits its width */
+    background-color: #f9f9f9; /* Light background for the list */
+    border: 1px solid #ddd; /* Subtle border around the list */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+li {
+    padding: 15px 20px; /* Adds spacing inside each item */
+    border-bottom: 1px solid #ddd; /* Adds a line between items */
+    font-size: 1.2rem; /* Increases font size for readability */
+    color: #333; /* Dark gray text */
+}
+
+li:last-child {
+    border-bottom: none; /* Removes border for the last item */
+}
+
+li:hover {
+    background-color: #f1f1f1; /* Highlight effect on hover */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
 
 
 
