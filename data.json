@@ -1,17 +1,42 @@
 [
     {
-        "name": "RR",
-        "age": 35,
-        "city": "San Francisco"
+        "name": "John Doe",
+        "distance_km": 5.0,
+        "time_minutes": 25.4
     },
     {
-        "name": "Ann Ispen",
-        "age": 30,
-        "city": "Los Angeles"
+        "name": "Jane Smith",
+        "distance_km": 10.0,
+        "time_minutes": 52.3
     },
     {
-        "name": "Tom Hanks",
-        "age": 22,
-        "city": "Chicago"
+        "name": "Alice Johnson",
+        "distance_km": 3.0,
+        "time_minutes": 15.8
+    },
+    {
+        "name": "Bob Brown",
+        "distance_km": 21.1,
+        "time_minutes": 110.5
+    },
+    {
+        "name": "Emily Davis",
+        "distance_km": 1.5,
+        "time_minutes": 8.7
+    },
+    {
+        "name": "Chris Wilson",
+        "distance_km": 7.0,
+        "time_minutes": 33.1
+    },
+    {
+        "name": "Patricia Miller",
+        "distance_km": 15.0,
+        "time_minutes": 75.6
+    },
+    {
+        "name": "Michael Garcia",
+        "distance_km": 42.2,
+        "time_minutes": 230.0
     }
 ]
