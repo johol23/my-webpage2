@@ -12,7 +12,7 @@ body {
     height: 100vh; /* Makes the body full height */
     margin: 0; /* Removes default body margin */
     font-family: Arial, sans-serif; /* Optional: set font */
-    background-color: #f5f5f5; /* Optional: set a background color */
+    background-color: #3cb371; /* Optional: set a background color */
     text-align: center; /* Center text alignment */
 }
 
@@ -28,109 +28,5 @@ h1 {
 }
 
 
-/* Heading Styles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif; /* Adds an elegant touch */
-    color: #4b3f35; /* Warm brown for headers */
-}
 
-
-
-h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-/* Links */
-a {
-    color: #6a8e4e; /* Earthy green */
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.3s ease, color 0.3s ease;
-}
-
-a:hover {
-    color: #4a6c3b;
-    border-color: #6a8e4e;
-}
-
-/* Buttons */
-button {
-    background-color: #6a8e4e; /* Earthy green */
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #4a6c3b; /* Darker green for hover */
-}
-
-/* Cards */
-.card {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-/* Inputs */
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fefdfc;
-}
-
-input:focus, textarea:focus {
-    outline: none;
-    border-color: #6a8e4e;
-}
-
-/* Footer */
-footer {
-    background-color: #4b3f35; /* Dark warm brown */
-    color: #ffffff;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
-}
-
-footer a {
-    color: #d4a373; /* Muted golden tone */
-    text-decoration: underline;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    .card {
-        padding: 15px;
-    }
-}
 
