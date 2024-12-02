@@ -3,7 +3,7 @@
 var template = `
     <ul>
         {{#data}}
-        <li>Name: {{name}}, distance: {{distance_km}}, Time: {{time_minutes}}</li>
+        <li>Name: {{name}}, distance: {{distance_km}}km, Time: {{time_minutes}}min</li>
         {{/data}}
     </ul>
 `;
