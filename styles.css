@@ -4,14 +4,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f3f1; /* Light earth-tone background */
-    color: #2b2b2b; /* Deep charcoal for text */
-    line-height: 1.6;
-    padding: 20px;
+    display: flex;
+    justify-content: center; /* Horizontally centers content */
+    align-items: center; /* Vertically centers content */
+    flex-direction: column; /* Ensures content stacks vertically */
+    height: 100vh; /* Makes the body full height */
+    margin: 0; /* Removes default body margin */
+    font-family: Arial, sans-serif; /* Optional: set font */
+    background-color: #f5f5f5; /* Optional: set a background color */
+    text-align: center; /* Center text alignment */
 }
+
+h1 {
+    font-size: 3rem; /* Increases the font size of the heading */
+    color: #333; /* Optional: sets a color */
+    margin-bottom: 20px; /* Adds spacing below the heading */
+}
+
+#output {
+    font-size: 1.5rem; /* Makes the output text larger */
+    color: #555; /* Optional: sets a color for the output text */
+}
+
 
 /* Heading Styles */
 h1, h2, h3, h4, h5, h6 {
@@ -19,10 +34,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #4b3f35; /* Warm brown for headers */
 }
 
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
+
 
 h2 {
     font-size: 2rem;
